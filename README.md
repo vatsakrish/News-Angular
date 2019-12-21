@@ -1,7 +1,14 @@
-# AngularStartup
+# NEWS Maikli
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This project was created to display news from around the world. code was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4. and deployed in Google App Engine
 
+
+# Documentation
+Browser triggers a call to the NEWS Api which is rendered thru a service call. 
+Nav bar is a seperated as a component and used to render the main page (News component) on clicks.
+
+
+# Angular Commands
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
