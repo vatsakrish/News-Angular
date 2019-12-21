@@ -1,0 +1,28 @@
+<head>
+  <title>New from around the world</title>
+</head>
+
+
+<div class="p-2 p-md-5">
+  <div class="row mb-2">
+    <div class="col-md-6" *ngFor="let set of dataSet">
+      <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card-body d-flex flex-column align-items-start">
+          <strong class="d-inline-block mb-2 text-secondary">{{currentDate | date:'MMM - dd'}}</strong>
+          <h3 class="mb-0">
+            <a class="text-dark">{{set.source.name}}</a>
+          </h3>
+          <div class="mb-1 text-muted"></div>
+          <p class="card-text mb-auto">{{set.title}}</p>
+          <a href={{set.url}}>Continue reading</a>
+        </div>
+        <div class ="img-border">
+            <a href={{set.url}}><img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
+            alt="Thumbnail [200x250]" style="width: 200px; height:200px" src={{set.urlToImage}}
+            data-holder-rendered="true"></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

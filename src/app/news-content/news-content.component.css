@@ -1,0 +1,48 @@
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  width: 220px;
+  height: 300px;
+  border: 0px solid rgba(0, 0, 0, .125);
+}
+
+.card-header-resize {
+  font-size: 12px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-body-resize {
+  padding: 0.5rem;
+  max-height: 170px;
+}
+
+.btn-custom {
+  padding: .20rem .4rem;
+  font-size: 0.65rem;
+  line-height: 1.0;
+  border-radius: .2rem;
+}
+
+.mainImg {
+  width: 200px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.img-border {
+  box-shadow: -20px 0rem .75rem rgba(0, 0, 0, .05);
+
+}
